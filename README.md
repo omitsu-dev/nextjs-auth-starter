@@ -1,3 +1,5 @@
+![CI](https://github.com/omitsu-dev/nextjs-auth-starter/actions/workflows/ci.yml/badge.svg)
+
 # nextjs-auth-starter
 
 Next.js 16 + Auth.js v5 + Prisma authentication starter with GitHub/Google OAuth, email/password login, and protected routes.
