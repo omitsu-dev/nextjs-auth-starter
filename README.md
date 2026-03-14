@@ -8,7 +8,7 @@ Next.js 16 + Auth.js v5 + Prisma authentication starter with GitHub/Google OAuth
 - **OAuth** — GitHub and Google sign-in out of the box
 - **Credentials** — Email/password registration with bcrypt hashing
 - **Prisma ORM** — PostgreSQL adapter with User, Account, Session models
-- **Protected routes** — Middleware-based auth guard on `/dashboard`
+- **Protected routes** — Proxy-based auth guard on `/dashboard`
 - **Server Actions** — Form handling with Zod validation
 - **React 19** — `useActionState` for form state management
 - **Tailwind CSS v4** — Clean, responsive UI
@@ -80,7 +80,7 @@ Open [http://localhost:3000](http://localhost:3000).
 │   └── db.ts                         # Prisma client singleton
 ├── prisma/
 │   └── schema.prisma                 # Database schema
-└── middleware.ts                     # Route protection
+└── proxy.ts                         # Route protection (Next.js 16)
 ```
 
 ## Auth Flow
