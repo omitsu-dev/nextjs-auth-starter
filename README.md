@@ -4,6 +4,8 @@
 
 Next.js 16 + Auth.js v5 + Prisma authentication starter with GitHub/Google OAuth, email/password login, and protected routes.
 
+Built from the auth system powering [32blog.com](https://32blog.com).
+
 ## Features
 
 - **Auth.js v5** (NextAuth.js) — JWT sessions, multiple providers
