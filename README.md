@@ -1,6 +1,6 @@
 # nextjs-auth-starter
 
-Next.js 15 + Auth.js v5 + Prisma authentication starter with GitHub/Google OAuth, email/password login, and protected routes.
+Next.js 16 + Auth.js v5 + Prisma authentication starter with GitHub/Google OAuth, email/password login, and protected routes.
 
 ## Features
 
@@ -130,7 +130,7 @@ providers: [GitHub, Google, Discord, Credentials({...})],
 
 | Package | Version |
 |---------|---------|
-| Next.js | 15.x |
+| Next.js | 16.x |
 | Auth.js (next-auth) | 5.x beta |
 | Prisma | 6.x |
 | React | 19.x |
