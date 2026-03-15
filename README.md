@@ -142,6 +142,10 @@ providers: [GitHub, Google, Discord, Credentials({...})],
 | Zod | 3.x |
 | bcryptjs | 2.x |
 
+## Related Articles
+
+- [Claude Code × Next.js: Stop AI-Generated App Router Mistakes](https://32blog.com/en/claude-code/claude-code-nextjs-app-router-mistakes-workflow) — Common App Router pitfalls and how to avoid them
+
 ## License
 
 [MIT](LICENSE)
